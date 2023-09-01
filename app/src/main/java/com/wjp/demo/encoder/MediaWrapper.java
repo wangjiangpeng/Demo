@@ -24,7 +24,7 @@ public class MediaWrapper {
     private Surface mSurface;
     private ArrayList<AbsEncoder> mList = new ArrayList<>();
 
-    private MediaWrapper(boolean hasAudio, boolean hasVideo, int width, int height, String path, String url) {
+    public MediaWrapper(boolean hasAudio, boolean hasVideo, int width, int height, String path, String url) {
         this.width = width;
         this.height = height;
         this.savePath = path;
